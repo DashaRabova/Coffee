@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 24px "Jost", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+    padding: 0 24px;
+}
+
+.hero{
+    background: #EEEFF1;
+    padding: 24px 0 162px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 40px
+}
+
+.menu a{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.content{
+    display: flex;
+}
+
+.content p{
+    max-width: 530px;
+}
+
+.btn{
+    display: inline-block;
+    background: #000;
+    color: white;
+    border-radius: 50px;
+    padding: 20px 40px; 
+    text-transform: uppercase;
+    margin: 60px 0px;
+}
+
+.info p{
+    color: #64646A ;
+}
+
+.info h1{
+    font-size: 124px;
+    line-height: 140px;
+}
+
+.photo{
+    padding: 160px 30px;
+}
+
+.order{
+        /* outline: 1px solid red; */
+    background: #F5F7FD;
+    padding: 24px 0 162px;
+    margin: 0 auto;
+}
+
+.food{
+    /* outline: 1px solid red; */
+    background: #F5F7FD;
+    padding: 24px 0 162px;
+    margin: 0 auto;
+}
+
+.infocoffee h1{
+    line-height: 70px;
+}
+
+.attachment{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
+.attachment p{
+    font-size: 24px;
+    max-width: 604px;
+    color: #64646A;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 64px;
+}
+
+.row{
+    padding: 90px;
+    display: flex;
+    justify-content:center;
+}
+
+.item{
+    min-width: 393px;
+    background: #fff;
+    margin: 15px;
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.title{
+    color: #1B1B1D;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.text h3{
+    font-weight: 400;
+    font-size: 24px;
+    color: #64646A;
+}
+
+.text img{
+    width: 150px;
+    display: flex;
+    margin: 30px auto 0;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn a{
+    background: #000;
+    color: #ffffff;
+    display: flex;
+    border-radius: 50px;
+    text-transform: uppercase;
+    width: 225px;
+    justify-content: center;
+}
+
+.row .wrap-btn{
+    text-align: center;
+}
